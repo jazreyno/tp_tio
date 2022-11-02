@@ -15,14 +15,17 @@ $params = explode('/', $action);
 $GamesController = new GamesController();
 
 switch($params=[0]) {
-    case 'home':{
-        $GamesController=home();
-        }
-    case 'minencraft':{
-    $GamesController=minencraft();
-    }
-    case 'section':{
-        $GamesController = showGames();
-    }
+    case 'home':
+        $GamesController->home();
+        break;
+        
+    case 'minencraft':
+    $GamesController-> minencraft();
+    break;
+    
+    case 'section':
+        $GamesController -> showGames();
+        break;
+    
 }
 ?>
