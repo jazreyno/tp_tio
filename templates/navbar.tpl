@@ -20,7 +20,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-              <a class="nav-link" href="juego1">juego1</a>            
+              <a class="nav-link" href="minencraft">minencraft</a>            
               <a class="nav-link" href="juego2">juego2</a>
               <a class="nav-link" href="juego3">juego3</a>
               <a class="nav-link" href="juego4">juego4</a>
