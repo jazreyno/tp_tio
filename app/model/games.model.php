@@ -16,3 +16,4 @@ class GamesModel {
         return $games;
     }
 
+}
