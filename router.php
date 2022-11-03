@@ -6,7 +6,7 @@ define('BASE_URL', '//'.$_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] 
 if (!empty($_GET['action'])) { 
     $action = $_GET['action'];
 }
-else {
+else{
     $action = 'home';
 }
 
@@ -20,7 +20,7 @@ switch($params[0]) {
         break;
         
     case 'minecraft':
-        $GamesController->minencraft();
+        $GamesController->minecraft();
         break;
     
     case 'section':
@@ -31,4 +31,4 @@ switch($params[0]) {
         echo('404 Page not found');
         break;
 }
-?>
+

@@ -1,7 +1,6 @@
-{include file="header.tpl"}
-<h1>Minecraft</h1>
+<h1>Minencraft</h1>
 
-<h2> ¿De que trata el Minecraft? </h2>
+<h2> de que trata el minencraft </h2>
 
 <p>El mundo de Minecraft es infinito y se basa en bloques, la inmensa mayoría de ellos con forma de cubo y de las mismas dimensiones. 
 Y sí, decimos bien, infinito, pues podrías empezar a recorrerlo sin llegar nunca jamás al borde; antes se agotará el almacenamiento de 
@@ -13,4 +12,3 @@ para ir avanzando en el juego, construyendo nuevos objetos o mejorando los que y
 <p>La versión Java de Minecraft tiene una versión gratuita.
 
 Esta no la vas a instalar, sino que la vas a ejecutar directamente desde el navegador de tu ordenador. Eso sí, se trata de la versión clásica sin tantos añadidos, y sin la posibilidad de añadir skins, packs de textura ni ningún otro contenido. </p>
-{include file="footer.tpl"}

@@ -23,6 +23,6 @@ class GamesView {
     }
     function home()
     {
-        $this->smarty->display('templates\home.tpl');
+        $this->smarty->display('home.tpl');
     }
 }

@@ -19,8 +19,8 @@ class GamesController {
         $games = $this->model->getGames();
         $this->view->displayGames($games);
     }
-    function minencraft(){
-        $this->view->minencraft();
+    function minecraft(){
+        $this->view->minecraft();
     }
     function home(){
         $this->view->home();
