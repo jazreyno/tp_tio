@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
             {foreach from=$games item=$game}
-            <a class="nav-link" href="{$game->id}">{$game->game}</a>        
+            <a class="nav-link" href="#{$game->id}">{$game->game}</a>        
             {/foreach}    
         </div>
      </div>
@@ -18,12 +18,13 @@
  </nav>
 </header>
 
-<h1> los distintos tipos de videojuegos </h1>
-<p>lo que vamos a mostrar en esta pagina es un poco de informacion de nuestros videojuegos favoritos,ojala les guste </p>
-
+<div class="introduccion">
+    <h1> los distintos tipos de videojuegos </h1>
+    <p>lo que vamos a mostrar en esta pagina es un poco de informacion de nuestros videojuegos favoritos,ojala les guste </p>
+</div>
 
 {foreach from=$games item=$game}
-    <section class="{$game->id} {$game->id}-background">
+    <section id="{$game->id}" class="{$game->id}-background">
         <div class="{$game->id}-nombre">
             {$game->student}
         </div>
