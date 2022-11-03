@@ -12,6 +12,7 @@
                 {$game->description}
             </div>
         </div>
+        <img class="{$game->id}-imagen" src="{$game->image}"></img>
     </section>
 {/foreach}
 {include file="footer.tpl"}
