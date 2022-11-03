@@ -1,3 +1,4 @@
+/*para que el footer aparezca en la parte de abajo se establece el tamaño del body por defecto*/
 body{
     margin: 0;
     position: relative;
