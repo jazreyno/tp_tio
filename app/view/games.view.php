@@ -5,25 +5,13 @@ class GamesView {
 
     private $smarty;
 
-    function __construct()
-    {
+    function __construct(){
         $this->smarty=new Smarty();
     }
 
-    function displayGames($games) 
-    {
-        
+    function displayGames($games){
        $this-> smarty->assign('games', $games);
-       $this-> smarty->display('templates\section.tpl');
-        }
-    function minencraft()
-    {
-       
-        $this->smarty->display('templates\minencraft.tpl');
+       $this-> smarty->display('templates\body.tpl');
     }
-    function home()
-    {
-       
-        $this->smarty->display('templates\home.tpl');
-    }
+
 }
