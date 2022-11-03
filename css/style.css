@@ -28,7 +28,6 @@ section {
     border: 0px;
     margin: 0px;
     gap: 20px;
-  
   }
   .section div{
     display: flex;
@@ -52,3 +51,36 @@ section {
     color: grey;
     padding:0px;
   }
+
+.\37-background {
+background-image: url("../image/eastward_img.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+height: 100vh;
+}
+.\37-titulo {
+  color: rgb(227, 227, 126);
+  text-align: center;
+  font-size: 5rem;
+  font-family: 'East Sea Dokdo';
+  src: url('../css/fonts/EastSeaDokdo-Regular.ttf') format('truetype');
+}
+
+.\37-nombre {
+  color: rgb(227, 227, 126);
+  font-style: italic;
+  text-decoration: underline;
+  font-family: 'East Sea Dokdo';
+  src: url('../css/fonts/EastSeaDokdo-Regular.ttf') format('truetype');
+  font-size: 2rem;
+}
+.\37-descripcion {
+  color: whitesmoke;
+  text-shadow: 2px 2px  rgb(227, 227, 126);
+  margin: 2%;
+  font-family: 'East Sea Dokdo';
+  src: url('../css/fonts/EastSeaDokdo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-size: 2rem;
+}
