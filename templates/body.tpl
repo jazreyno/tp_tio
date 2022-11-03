@@ -1,32 +1,42 @@
-<body>
+ {include file="header.tpl"}
+
+ <header class="header">
+ <nav class="navbar navbar-expand-lg bg-info">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="home">Inicio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            {foreach from=$games item=$game}
+            <a class="nav-link" href="{$game->id}">{$game->game}</a>        
+            {/foreach}    
+        </div>
+     </div>
+   </div>
+ </nav>
+</header>
+
+<h1> los distintos tipos de videojuegos </h1>
+<p>lo que vamos a mostrar en esta pagina es un poco de informacion de nuestros videojuegos favoritos,ojala les guste </p>
+
 
 {foreach from=$games item=$game}
-    <section class="{$game->id}-background">
-        {* <div class="{$game->id}-nombre">
-            {game->student}
+    <section class="{$game->id} {$game->id}-background">
+        <div class="{$game->id}-nombre">
+            {$game->student}
         </div>
         <div>
             <div class="{$game->id}-titulo">
-                {game->game}
+                {$game->game}
             </div>
             <div class="{$game->id}-descripcion">
-                {game->description}
+                {$game->description}
             </div>
-        </div> *}
+        </div>
     </section>
-    <table>
-        <thead>
-            <tr>
-                <th>persona</th>
-                <th>juego</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>{$game->student}</td>
-                <td>{$game->game}</td>
-            </tr>
-        </tbody>
-    </table>
 {/foreach}
-</body>
+
+
+{include file="footer.tpl"}
