@@ -3,7 +3,7 @@
 class GamesModel {
 
     function connect() {
-        $db = new PDO('mysql:host=localhost;'.'dbname=db_games; charset=utf8', 'root', '');
+        $db = new PDO('mysql:host=localhost;'.'dbname=db-games; charset=utf8', 'root', '');
         return $db;
     }
     
@@ -11,7 +11,7 @@ class GamesModel {
     function getGames(){
         $db = $this->connect();
         
-        $query = $db->prepare("SELECT * FROM `games-by-student`");
+        $query = $db->prepare("SELECT * FROM `gamesstudent`");
         $query->execute();
 
         return $query->fetchAll(PDO::FETCH_OBJ);
