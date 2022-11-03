@@ -1,15 +1,17 @@
-{foreach from=games item=game}
-    <section class="{game->id} {game->id}-background">
-        <div class="{game->id}-nombre">
-            {game->student}
+{include file="header.tpl"}
+{foreach from=$games item=$game}
+    <section class="{$game->id} {$game->id}-background">
+        <div class="{$game->id}-nombre">
+            {$game->student}
         </div>
         <div>
-            <div class="{game->id}-titulo">
-                {game->game}
+            <div class="{$game->id}-titulo">
+                {$game->game}
             </div>
-            <div class="{game->id}-descripcion">
-                {game->description}
+            <div class="{$game->id}-descripcion">
+                {$game->description}
             </div>
         </div>
     </section>
 {/foreach}
+{include file="footer.tpl"}

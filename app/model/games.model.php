@@ -10,7 +10,7 @@ class GamesModel {
     
     function getGames(){
         $db = $this->connect();
-        $query = $db->prepare('SELECT * FROM games-by-student');
+        $query = $db->prepare("SELECT * FROM `games-by-student`");
         $query->execute();
         $games = $query->fetchAll(PDO::FETCH_OBJ);
         return $games;
