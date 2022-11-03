@@ -1,0 +1,39 @@
+/* 
+.pie{
+  background: #140b5c;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.section{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  gap: 20px;
+
+}
+.section div{
+  display: flex;
+  flex-direction: column;
+}
+div h2{
+  color: white;
+  padding: 1px 0;
+}
+a{
+  padding: 5px;
+}
+.derechos{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background: #0a0433;
+  color: white;
+}
+.p-footer{
+  color: grey;
+  padding:0px;
+} */

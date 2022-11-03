@@ -1,0 +1,54 @@
+.\32-nombre, .\32-titulo, .\32-descripcion {
+    border: dashed 2px white;
+    background-color: rgb(137, 30, 30);
+    font-style: oblique;
+    color: white;
+}
+
+.\32-imagen {
+    width: 30%;
+    height: 20%;
+}
+
+section {
+    height: auto;
+    width: 95%;
+    margin: 2%;
+}
+  
+.pie{
+  background: #140b5c;
+  width: 100%;
+}
+
+.section{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  gap: 20px;
+
+}
+.section div{
+  display: flex;
+  flex-direction: column;
+}
+div h2{
+  color: white;
+  padding: 1px 0;
+}
+a{
+  padding: 5px;
+}
+.derechos{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  background: #0a0433;
+  color: white;
+}
+.p-footer{
+  color: grey;
+  padding:0px;
+}
