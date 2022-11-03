@@ -1,7 +1,10 @@
-/*para que el footer aparezca en la parte de abajo se establece el tamaño del body por defecto*/
 body{
-    margin: 0;
-    position: relative;
-    padding-bottom: 10em;
-    min-height: 100vh;
+  margin: 0;
+  padding-bottom: 10em;
 }
+
+section {
+  height: 200px;
+  width: 95%;
+  margin: 2%
+}   
