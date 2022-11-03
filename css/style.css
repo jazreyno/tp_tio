@@ -1,7 +1,63 @@
 /*para que el footer aparezca en la parte de abajo se establece el tamaño del body por defecto*/
-body{
-    margin: 0;
-    position: relative;
-    padding-bottom: 10em;
-    min-height: 100vh;
+.\32-nombre, .\32-titulo, .\32-descripcion {
+    color: white;
+    font-style: oblique;
+    background-color: rgb(157, 22, 22);
+    border: dashed 2px black;
+ }
+ 
+ .\32-imagen {
+    width: 30%;
+    height: 20%;
+ }
+  
+  .pie{
+    background: #140b5c;
+    /* position: absolute; */
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    gap: 20px;
+  
+  }
+  .section div{
+    display: flex;
+    flex-direction: column;
+  }
+  div h2{
+    color: white;
+    padding: 1px 0;
+  }
+
+  a{
+    padding: 5px;
+  }
+  .derechos{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background: #0a0433;
+    color: white;
+  }
+  
+  .p-footer{
+    color: grey;
+    padding:0px;
+  }
+
+section {
+    height: auto;
+    width: 95%;
+    margin: 2%
 }
+
+
+
+
