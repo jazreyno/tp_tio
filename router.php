@@ -16,14 +16,7 @@ $GamesController = new GamesController();
 
 switch($params[0]) {
     case 'home':
-        $GamesController->home();
-        break;
-        
-    case 'minecraft':
-        $GamesController->minecraft();
-        break;
-    
-    case 'section':
+    case '':
         $GamesController->showGames();
         break;
 
