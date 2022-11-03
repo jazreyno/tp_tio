@@ -16,14 +16,13 @@ class GamesView {
        $this-> smarty->assign('games', $games);
        $this-> smarty->display('templates\section.tpl');
         }
-    function minencraft()
+    function minecraft()
     {
        
-        $this->smarty->display('templates\minencraft.tpl');
+        $this->smarty->display('templates\minecraft.tpl');
     }
     function home()
     {
-       
         $this->smarty->display('templates\home.tpl');
     }
 }
