@@ -186,7 +186,7 @@ text-shadow: 1px 1px #842b23;
   padding: 3px;
   display: flex;
   flex-direction: column-reverse;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 5px;
 }
 .\36-titulo, .\36-descripcion {
