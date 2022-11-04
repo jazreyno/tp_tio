@@ -36,6 +36,39 @@
   width: 30%;
   height: 20%;
 }
+.\34-background{
+  background-image: url("../image/minecraft.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 5px;
+}
+.\34-titulo{
+
+  color:rgb(247, 247, 247);
+  text-align: center;
+  text-shadow: 6px 6px  rgba(2, 148, 19, 0.614);
+  font-size: 5rem;
+
+
+}
+.\34-descripcion {
+  color: whitesmoke;
+  text-shadow: 2px 2px  rgb(32, 158, 220);
+  margin: 2%;
+  font-family: 'arial';
+  src: url('../css/fonts/EastSeaDokdo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-size: 2rem;
+}
+.\34-nombre {
+  color: black;
+  font-style: arial;
+  font-size: 2rem;
+}
 
 .\37-background {
   background-image: url("../image/eastward_img.jpg");
