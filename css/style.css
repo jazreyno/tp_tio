@@ -43,6 +43,9 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 5px;
 }
 
 .\37-titulo {
@@ -70,6 +73,40 @@
   src: url('../css/fonts/EastSeaDokdo-Regular.ttf') format('truetype');
   font-weight: normal;
   font-size: 2rem;
+}
+
+.\36-background {
+  background-image: url("../image/bioshock-background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 3px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 5px;
+}
+.\36-titulo, .\36-descripcion {
+  src: url('..css/fonts/ANNAI.ttf') format('truetype');
+  font-family: 'Anna ITC TT';
+}
+.\36-titulo {
+font-size: 5rem;
+color: #b6b6b6;
+text-shadow: -7px -4px #076f64;
+text-align: center;
+}
+.\36-descripcion{
+color: whitesmoke;
+font-size: 2rem;
+text-shadow: 1px 1px #e7e5c1;
+}
+.\36-nombre{
+  font-size: 2rem;
+  color: #076f64;
 }
 
 .introduccion{
