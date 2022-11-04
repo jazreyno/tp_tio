@@ -1,12 +1,17 @@
 .\31-background{
   display: flex;
   flex-direction:column-reverse;
+  justify-content: space-around;
   border-radius: 5px;
-  border: solid 5px rgb(207, 109, 67);
-  background-color: rgb(236, 175, 57);
-
+  height: 100vh;
+  margin: 0;
+  width: 100%;
   padding: 5px;
 
+  background-image: url("../image/deponia.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .\31-titulo, .\31-descripcion{
@@ -14,15 +19,17 @@
 }
 
 .\31-nombre{
-  border: solid 5px rgb(207, 109, 67);
-  width: 12%;
+  width: 20%;
   padding: 3px;
   border-radius: 5px;
 }
 
 .\31-nombre, .\31-titulo, .\31-descripcion {
-  color: rgb(41, 104, 92) ;
-  text-shadow: 1px 1px rgb(119, 235, 214);
+  color: rgb(74 164 169) ;
+  text-shadow: 1px 1px rgb(75 201 209);
+  font-size: 2rem;
+  /* text-shadow: -7px -4px #076f64; */
+  text-align: center;
 }
 
 .\32-nombre, .\32-titulo, .\32-descripcion {
