@@ -19,8 +19,8 @@
 </header>
 
 <div class="introduccion">
-    <h1> los distintos tipos de videojuegos </h1>
-    <p>lo que vamos a mostrar en esta pagina es un poco de informacion de nuestros videojuegos favoritos,ojala les guste </p>
+    <h1> Our Favorite Games Of All Times</h1>
+    <p> Lo que vamos a mostrar en esta pagina es un poco de informacion de nuestros videojuegos favoritos, ojalá les guste </p>
 </div>
 
 {foreach from=$games item=$game}
