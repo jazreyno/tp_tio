@@ -173,7 +173,6 @@ section {
   padding: 0px;
   border: 0px;
   margin: 0px;
-  gap: 20px;
 
 }
 .section div{
@@ -182,7 +181,7 @@ section {
 }
 div h2{
   color: white;
-  padding: 1px 0;
+  padding: 10px 0;
 }
 a{
   padding: 5px;
