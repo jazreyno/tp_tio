@@ -15,7 +15,7 @@
 }
 
 .\31-titulo, .\31-descripcion{
-  padding: 10px ;
+  padding: 10px;
 }
 
 .\31-nombre{
@@ -32,17 +32,42 @@
   text-align: center;
 }
 
-.\32-nombre, .\32-titulo, .\32-descripcion {
-  border: dashed 2px white;
-  background-color: rgb(137, 30, 30);
-  font-style: oblique;
-  color: white;
+.\32-background {
+  background-image: url("../image/leon-kennedy.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 5px;
 }
 
-.\32-imagen {
-  width: 30%;
-  height: 20%;
+@font-face{font-family:resident evil;font-style:normal;
+          font-weight:400;src:local('Resident Evil'),
+          url('https://fonts.cdnfonts.com/s/8068/Resident Evil Large.woff') 
+          format('woff')}
+
+.\32-titulo, .\32-descripcion {
+  font-family: 'Resident Evil';
 }
+.\32-titulo {
+font-size: 5rem;
+color: #3b0c0c;
+text-align: center;
+}
+.\32-descripcion{
+padding: 2%;
+color: rgb(252, 252, 252);
+font-size: 2rem;
+text-shadow: 1px 1px #842b23;
+}
+.\32-nombre{
+  font-family: 'Resident Evil';
+  font-size: 2rem;
+  color: #000606;
+}
+
 .\34-background{
   background-image: url("../image/minecraft.jpg");
   background-size: cover;
@@ -118,7 +143,7 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
-  margin: 0;
+  margin: 0%;
   width: 100%;
   padding: 5px;
 }
