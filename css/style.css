@@ -213,7 +213,7 @@ text-shadow: 1px 1px #e7e5c1;
   text-align: center;
 }
 body {
-  background-color: whitesmoke;
+  background-color: #FD841F;
 }
 .introduccion{
   margin: 5px;
@@ -240,7 +240,6 @@ section {
   padding: 0px;
   border: 0px;
   margin: 0px;
-  gap: 20px;
 
 }
 .section div{
@@ -249,7 +248,7 @@ section {
 }
 div h2{
   color: white;
-  padding: 1px 0;
+  padding: 10px 0;
 }
 a{
   padding: 5px;
@@ -264,4 +263,7 @@ a{
 .p-footer{
   color: grey;
   padding:0px;
+}
+.navbar{
+  background-color: #E14D2A;
 }
