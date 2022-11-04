@@ -8,19 +8,12 @@
             
             </div>
             <div>
-                <h2>Servicios</h2>
-                <a href="#">App Design</a>
-                <a href="#">Web Design</a>
-                <a href="#">Logo Design</a>
-                <a href="#">Banner Design</a>
+                <h2>Contactanos</h2>
+                <p class="p-footer">user@hotmail.com</p>
+                <p class="p-footer">help@gmail.com</p>
+                <p class="p-footer">user2@gmail.com</a>
             </div>
-            <div>
-                <h2>Cuenta</h2>
-                <a href="#">Profile</a>
-                <a href="#">My Account</a>
-                <a href="#">Preferences</a>
-                <a href="#">Purchase</a>
-            </div>
+         
     
         </div>
         <div class="derechos">
