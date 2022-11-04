@@ -213,7 +213,7 @@ text-shadow: 1px 1px #e7e5c1;
   text-align: center;
 }
 body {
-  background-color: whitesmoke;
+  background-color: #FD841F;
 }
 .introduccion{
   margin: 5px;
@@ -265,5 +265,5 @@ a{
   padding:0px;
 }
 .navbar{
-  background-color: rgb(255, 85, 0);
+  background-color: #E14D2A;
 }
