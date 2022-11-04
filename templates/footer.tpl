@@ -1,5 +1,5 @@
     <footer class="pie">
-        <hr>
+
         <div class="section">
             <div>
                 <h2>Desarrolladores</h2>
