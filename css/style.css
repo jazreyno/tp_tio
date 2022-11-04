@@ -71,17 +71,23 @@
   font-weight: normal;
   font-size: 2rem;
 }
-
-.introduccion{
-  text-align: center;
+body {
+  background-color: whitesmoke;
 }
-
+.introduccion{
+  margin: 5px;
+  text-align: center;
+  text-shadow: 1px 1px rgb(79, 168, 152);
+  font-family: 'Garamond', serif;
+}
+.introduccion h1 {
+  font-size: 4rem;
+}
 section {
   height: auto;
   width: 95%;
   margin: 2%;
-}
-  
+} 
 .pie{
   background: #140b5c;
   width: 100%;
