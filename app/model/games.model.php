@@ -6,8 +6,7 @@ class GamesModel {
         $db = new PDO('mysql:host=localhost;'.'dbname=db-games; charset=utf8', 'root', '');
         return $db;
     }
-    
-    
+
     function getGames(){
         $db = $this->connect();
         
