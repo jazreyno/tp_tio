@@ -242,7 +242,8 @@ text-shadow: 1px 1px #9c9636;
 .\33-nombre{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2rem;
-  color: #e4eeed;
+  color: #0e1414;
+  text-align: center;
 }
 .introduccion{
   text-align: center;
