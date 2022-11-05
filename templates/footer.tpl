@@ -9,9 +9,8 @@
             </div>
             <div>
                 <h2>Contactanos</h2>
-                <p class="p-footer">user@hotmail.com</p>
-                <p class="p-footer">help@gmail.com</p>
-                <p class="p-footer">user2@gmail.com</a>
+                <p class="p-footer">Minecrafteros@hotmail.com</p>
+                <p class="p-footer">Minecrafteros@gmail.com</p>
             </div>
          
     
