@@ -67,7 +67,6 @@ text-shadow: 1px 1px #842b23;
   font-size: 2rem;
   color: #000606;
 }
-
 .\34-background{
   background-image: url("../image/minecraft.jpg");
   background-size: cover;
@@ -84,8 +83,6 @@ text-shadow: 1px 1px #842b23;
   text-align: center;
   text-shadow: 6px 6px  rgba(2, 148, 19, 0.614);
   font-size: 5rem;
-
-
 }
 .\34-descripcion {
   color: whitesmoke;
@@ -208,7 +205,42 @@ text-shadow: 1px 1px #e7e5c1;
   font-size: 2rem;
   color: #076f64;
 }
-
+.\33-background {
+  background-image: url("../image/fortnite.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+  padding: 3px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  padding: 5px;
+}
+.\33-titulo, .\36-descripcion {
+  src: url('..css/fonts/ANNAI.ttf') format('truetype');
+  font-family: 'Anna ITC TT';
+}
+.\33-titulo {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 5rem;
+color: #995656;
+text-shadow: -7px -4px #39076f;
+text-align: center;
+}
+.\33-descripcion{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: rgb(94, 156, 81);
+font-size: 2rem;
+text-shadow: 1px 1px #9c9636;
+}
+.\33-nombre{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  color: #e4eeed;
+}
 .introduccion{
   text-align: center;
 }
