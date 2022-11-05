@@ -5,7 +5,6 @@
                 <h2>Desarrolladores</h2>
                 <p class="p-footer"> Matias - Ivan - Iara - Santiago </p>
                 <p class="p-footer"> Felipe -  Jazmin - Fabrizio</p>
-            
             </div>
             <div>
                 <h2>Contactanos</h2>
